@@ -401,23 +401,29 @@ header{
   .aside .ppl-cards-container {
     flex: 1;
     margin-right: 0px;
-    margin-left: 0px;
+    margin-left: 13px;
     width: 100%;
   }
   .card1{
     font-size: 90%;
   }
-  .ppl-cards-container .mst-ppl-cards{
+  .ppl-cards-container > .mst-ppl-cards{
    flex: 1; 
    width: 90%;
-   align-self: stretch;
+   
    font-size: 75%;
+   height: auto;
   }
   .mst-ppl-cards img{ 
     max-width: 95%;
+    height: auto;
   }
-  .small-img{
-    min-width: 120px;
+  .mst-ppl-cards .small-img{
+   height: 140px;
+   min-width: 50%;
+  }
+  .mst-ppl-cards .long-hotel-name{
+    max-height: fit-content;
   }
   .mst-ppl-cards p{
     font-size: 12px;
@@ -458,6 +464,18 @@ header{
  .medium2-card.card-border.card-width.card-height h4{
    margin-top: 20px;
  }
+ .activities-in-marseille h4{
+   font-size: 14px;
+ }
+ .big-card h4{
+   margin-top: 20px;
+ }
+ .p-br{
+  display: none;
+}
+.pr-br {
+  display: inline;
+}
  
 }
 
